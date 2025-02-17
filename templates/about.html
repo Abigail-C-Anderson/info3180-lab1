@@ -1,11 +1,13 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
+ <link rel="stylesheet" href="{{ url_for('static', filename='css/app.css') }}" />
  <meta charset="UTF-8">
  <title>My Website - About</title>
 </head>
 <body>
  <h1>Abigail Anderson</h1>
  <p>I am a creative at heart and spend a lot of my time exploring various art forms, from music to natural hairstyles and jewelry. It brings me great joy to share my love for natural hair care with others by curating short, shareable content that is both informative and entertaining.</p>
+ <img src="{{url_for('static', filename='abigailpic.jpg')}}"/>
 </body>
 </html>
